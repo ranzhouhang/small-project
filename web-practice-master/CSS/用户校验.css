@@ -1,0 +1,6 @@
+.usertext {
+	border: 1px solid red;
+	background-image: url(../images/波浪线.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}

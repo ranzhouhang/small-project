@@ -1,0 +1,184 @@
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video {display:block}
+mark,rp,rt,ruby,summary,time {display:inline}
+
+body {
+	font-size: 14px;
+	font-family: Arial,Helvetica,sans-serif;
+	min-width: 1000px;
+	line-height: 1.5em;
+	color: black;
+	margin: 0px;
+}
+strong {
+	display: block;
+	color: red;
+	margin: 10px 0px;
+}
+span {
+	color: red;
+}
+#main {
+	width: 1000px;
+	margin: 0px auto;
+	height: 100%;
+	background-color: #fff;
+	
+}
+header {
+	height: 208px;
+}
+header nav {
+	height: 100px;
+	background-color: orange;
+	border-radius: 15px;
+}
+header ul {
+	float: left;
+	padding: 20px 25px;
+
+
+}
+header nav ul li {
+	display: inline;
+	list-style: none;
+	margin-top: 10px;
+	
+}
+header #nav1 li a {
+	font-size: 16px;
+	margin: 0px 20px;
+	text-decoration: none;
+}
+header #nav2 {
+	margin: 10px 20px 10px 120px;
+}
+header #nav2 li img {
+	padding: 0px 20px;
+}
+header h1 {
+	float: left;
+	font-size: 350%;
+	letter-spacing: 3px;
+	margin: 25px;
+	padding: 10px 20px;
+}
+header form {
+	margin: 25px ;
+	
+}
+header form input {
+	margin-top: 10px;
+	margin-left: 220px;
+	padding: 2px;
+
+}
+header form a img {
+	vertical-align: middle;
+
+}
+article #pic {
+	width: 739px;
+	height: 270px;
+	background-image: url(../images/slogan-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: relative;
+}
+article #pic img {
+	position: absolute;
+	top: 50px;
+	left: 430px;
+
+}
+article #article-center {
+	width: 700px;
+}
+article h1 {
+	font-size: 200%;
+	margin: 25px 42px;
+
+}
+article #article-center ul li img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+	
+
+}
+article #article-center ul li {
+	list-style: none;
+	margin: 20px 0px;
+
+}
+article #article-center ul li strong {
+	padding-top: 10px;
+	margin: 0px;
+}
+article #article-center ul li a {
+	text-decoration: none;
+	color: red;
+}
+aside {
+ 	width: 220px;
+	float: right;
+ 	margin-top: -880px;
+	
+
+ }
+ aside #aside-up {
+ 	margin-left: -16px;
+ }
+ aside #aside-up li {
+ 	list-style: none;
+ 	line-height: 1.5em;
+ }
+ aside #aside-down, aside h1 {
+ 	margin: 15px 0px;
+ }
+ aside h1 {
+ 	font-size: 200%;
+ 	margin-top: 50px;
+ 	line-height: 1.5em;
+ 	margin-left: 20px;
+ }
+ aside h1 span {
+ 	display: block;
+ }
+ aside ul li {
+ 	line-height: 1.5em;
+
+ }
+ aside #aside-down ul  {
+ 	margin-left: 10px;
+ }
+ aside #aside-button {
+	padding: 5px;
+ 	background-color: orange;
+ 	width: 100px;
+ 	border-radius: 10px;
+ }
+ aside #aside-button a{
+ 	text-decoration: none;
+ 	color: white;
+ }
+ footer {
+ 	margin-left: -166px;
+ 	width: 1340px;
+ 	margin-top: 20px;
+ 	/*padding-top: 30px;*/
+ 	border-top: 1px solid orange;
+ 	text-align: center;
+ 	padding: 20px 0px;
+ 	float: left;
+ 	
+ }
+ footer p {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+footer a {
+ 	color: red;
+ }
+ footer a:hover {
+ 	text-decoration: none;
+ }
